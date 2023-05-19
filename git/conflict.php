@@ -1,0 +1,4 @@
+<?php
+
+$someString = 'first-second';
+

@@ -1,0 +1,20 @@
+POST localhost:8080/api/v1/auth
+Content-Type: application/x-www-form-urlencoded
+
+email=admin@admin.com&password=admin
+
+###
+
+POST localhost:8080/api/v1/register
+Content-Type: application/x-www-form-urlencoded
+
+name=admin&email=admin@admin.com&password=admin
+
+###
+
+GET localhost:8080/api/v1/logout
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NTc2MTM4NDcsImlzcyI6ImxvY2FsaG9zdCIsIm5iZiI6MTY1NzYxMzg0NywiZXhwIjoxNjU3NjE3NDQ3LCJkYXRhIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9fQ.i8mCEcALsJyexamVDjxmCVxQRWpSicxHhF2cycsrm-vnuX2bYQs8Xqe1VTHffeR0BNmhtDtLVjmqal6cM0hyVw
+###
+
+GET localhost:8080/api/v1/profile?id=18
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NTcxODk3MTcsImlzcyI6ImxvY2FsaG9zdCIsIm5iZiI6MTY1NzE4OTcxNywiZXhwIjoxNjU3MTg5Nzc3LCJkYXRhIjp7ImlkIjo4LCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9fQ.STrDFelIvrmuI43Y6vSAnDxjGLq3s1VHdPrPpybkO0LgXVPJmFz-DqDBasOqVQLswf0LLccRq01ZVelSWTZFrg
